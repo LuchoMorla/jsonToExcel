@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "name": "jsontoexcel",
+  "version": "1.0.0",
+  "main": "jsonToExcel.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LuchoMorla/jsonToExcel.git"
+  },
+  "author": "Luis Morla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuchoMorla/jsonToExcel/issues"
+  },
+  "homepage": "https://github.com/LuchoMorla/jsonToExcel#readme",
+  "description": ""
+}
