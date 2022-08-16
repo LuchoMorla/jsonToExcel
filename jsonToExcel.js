@@ -197,7 +197,6 @@
     const customer = response.map(x => x.customer);
     const items = response.map(x => x.items);
     const items2 = items.flat(Infinity);
-/*     console.log(items2); */
     const orderProduct = items2.map(x => x.OrderProduct);
 
 const convertJsonToExcel = (arrayO, namou) => {
@@ -217,9 +216,6 @@ const convertJsonToExcel = (arrayO, namou) => {
 
 }
 
-/*     const resp = array.forEach(element => `${element.id}`);
-    return resp; */
-/* console.log(b); */
 const name = {
     orders: 'ordenes',
     customers: 'clientes',
@@ -235,4 +231,3 @@ const metods = {
 }
 
 convertJsonToExcel(metods.orders, name.orders);
-
